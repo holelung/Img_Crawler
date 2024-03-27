@@ -16,7 +16,7 @@
 ```
 pip install selenium
 ```
-터미널에 친다 절대 powershell로 하지말것
+터미널에 친다 절대 **powershell**로 하지말것
 
 4. test.py의 11번째 줄
 ```
