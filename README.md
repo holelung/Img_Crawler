@@ -28,4 +28,5 @@ path_folder = f'**파일경로 여기 입력**\{search_term}'
 ```
  * "sunflower" 부분을 수정한다.
  * path_folder 의 ''부분을 절대경로로 수정하고 마지막에 \{search_term} 을 꼭 붙인다(윈도우기준)
+ * user가 한글일 경우 C드라이브에 폴더를 만들어 경로를 설정한다.
  
