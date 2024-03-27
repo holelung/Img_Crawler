@@ -25,8 +25,15 @@ search_term = "**검색어 여기 입력**"
 # 저장 폴더 입력
 path_folder = f'**파일경로 여기 입력**\{search_term}'
 
+# 이미지 다운로드
+print("이미지 다운로드 시작")
+for i, url in enumerate(urls):
+    urllib.request.urlretrieve(url, f"./{search_term}/{search_term}_{i}.jpg")
 ```
  * "sunflower" 부분을 수정한다.
  * path_folder 의 ''부분을 절대경로로 수정하고 마지막에 \{search_term} 을 꼭 붙인다(윈도우기준)
  * user가 한글일 경우 C드라이브에 폴더를 만들어 경로를 설정한다.
+ * 이미지 다운로드 부분의 경로를 \(역슬래시)로 바꿀것.
+
+ 
  
