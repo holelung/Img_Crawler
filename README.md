@@ -21,9 +21,9 @@ pip install selenium
 4. test.py의 11번째 줄
 ```
 # 검색어 입력
-search_term = "sunflower"
+search_term = "**검색어 여기 입력**"
 # 저장 폴더 입력
-path_folder = f'/Users/jangjunho/develop/Python_Crawling/{search_term}'
+path_folder = f'**파일경로 여기 입력**\{search_term}'
 
 ```
  * "sunflower" 부분을 수정한다.
