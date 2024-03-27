@@ -33,7 +33,11 @@ for i, url in enumerate(urls):
  * "sunflower" 부분을 수정한다.
  * path_folder 의 ''부분을 절대경로로 수정하고 마지막에 \{search_term} 을 꼭 붙인다(윈도우기준)
  * user가 한글일 경우 C드라이브에 폴더를 만들어 경로를 설정한다.
- * 이미지 다운로드 부분의 경로를 \(역슬래시)로 바꿀것.
+ * 이미지 다운로드 부분의 경로를 .\{search_term}\{search_term}_{i}.jpg 이렇게 수정할것
+```
+    .\{search_term}\{search_term}_{i}.jpg
+```
+
 
  
  
