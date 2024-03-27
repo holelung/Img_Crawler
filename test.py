@@ -9,7 +9,10 @@ import os
 
 
 # 검색어 입력
-search_term = "능소화"
+search_term = "rose"
+# 저장 폴더 입력
+path_folder = f'/Users/jangjunho/develop/Python_Crawling/{search_term}'
+
 # Chrome 드라이버 실행
 driver = webdriver.Chrome()
 driver.get("https://www.google.com/imghp?hl=ko&tab=ri&ogbl")
@@ -28,7 +31,8 @@ prev_img_count = 0
 # 결과 로딩 대기
 time.sleep(3)  # 로딩 시간을 위해 대기, 필요에 따라 조절
 
-path_folder = f'/Users/jangjunho/develop/Python_Crawling/{search_term}'
+
+
 if  not os.path.isdir(path_folder):
     os.mkdir(path_folder)
 
