@@ -12,7 +12,13 @@
  * 파이썬 환경만들기를 선택한다.
  * Conda를 누르고 3.11 버전을 선택한다.
 
-3. test.py의 11번째 줄
+3. 세번째
+```
+pip install selenium
+```
+터미널에 친다 절대 powershell로 하지말것
+
+4. test.py의 11번째 줄
 ```
 # 검색어 입력
 search_term = "sunflower"
